@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mon Parcours — Louis Maillet</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <img src="profile.jpg" alt="Photo Louis" class="avatar">
+        <div>
+          <h1 id="name">Louis Maillet</h1>
+          <p id="title">Étudiant ingénieur — ESAIP (Réseaux & Informatique)</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#formation">Formation</a>
+        <a href="#competences">Compétences</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="accueil" class="section hero">
+      <div>
+        <h2>Mon parcours — Ingénieur en devenir</h2>
+        <p class="lead">Je ne cherche pas à changer le monde. Je veux construire une vie stable : travailler sérieusement, rester libre et profiter des choses simples.</p>
+        <div class="quick-links">
+          <a href="#formation" class="btn">Voir ma formation</a>
+          <a href="#projet" class="btn btn-outline">Mon projet pro</a>
+          <a href="CV_page1.pdf" target="_blank" class="btn btn-outline">📄 Voir mon CV (page 1)</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="parcours" class="section">
+      <h3>Parcours</h3>
+      <div class="grid-2">
+        <div class="card">
+          <h4>La valeur du travail</h4>
+          <p>La valeur du travail est centrale : quelle que soit la situation, le travail finit par payer. La prépa a été une épreuve difficile mais formative : elle a renforcé l'acharnement et la rigueur. Cette expérience a montré la nécessité de la persévérance.</p>
+        </div>
+        <div class="card">
+          <h4>Liberté et exploration</h4>
+          <p>L'ESAIP a offert du temps et la possibilité d'explorer des domaines nouveaux. L'Erasmus à Pilsen a confirmé l'importance des rencontres et du contact humain, et a renforcé l'envie d'un métier qui laisse de la diversité.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formation" class="section">
+      <h3>Formation</h3>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Année</th><th>Formation</th><th>Apprécié / Manqué</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>2022–2024</td><td>Prépa MPSI → MP — Lycée Robespierre, Arras</td><td>Apprécié : rigueur et bases solides. Manqué : moins de temps pour projets concrets.</td></tr>
+            <tr><td>2024–2025</td><td>ESAIP — Ingénieur Réseaux</td><td>Apprécié : pédagogie par projet, temps pour approfondir.</td></tr>
+            <tr><td>2025</td><td>Erasmus — Pilsen (6 mois)</td><td>Apprécié : échanges culturels, autonomie. Manqué : temps limité pour approfondir technique.</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section id="competences" class="section">
+      <h3>Compétences</h3>
+      <div class="skills-grid">
+        <div class="skill card">
+          <h4>Techniques</h4>
+          <ul id="tech-list"></ul>
+        </div>
+        <div class="skill card">
+          <h4>Transversales</h4>
+          <ul id="trans-list"></ul>
+        </div>
+        <div class="skill card">
+          <h4>Gestion & Communication</h4>
+          <p>En tant qu'ambassadeur et membre du BDE, coordination d'événements, accueil d'étudiants internationaux, prise de parole et médiation. Ces rôles ont renforcé la capacité à gérer des équipes et à communiquer clairement en contexte multiculturel.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="projet" class="section">
+      <h3>Projet professionnel</h3>
+      <div class="card">
+        <p>Trouver un poste stable d'ingénieur permettant une bonne qualité de vie et des responsabilités techniques.</p>
+        <h4>Projection à 5 ans</h4>
+        <ul id="proj5"></ul>
+      </div>
+    </section>
+
+    <section id="experiences" class="section">
+      <h3>Expériences</h3>
+      <div id="exp-list"></div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h3>Contact</h3>
+      <p><strong>Email :</strong> lmaillet.ir2027@esaip.org</p>
+      <p><strong>Téléphone :</strong> 07 81 86 87 17</p>
+      <p><strong>Adresse :</strong> 1 Allée des Bruyères, 33290 Blanquefort</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container"><p style="color:#777;font-size:13px;margin:0">&nbsp;</p></div></footer>
+
+  
+<script>
+const inlineData = {"name": "Louis Maillet", "title": "Étudiant ingénieur — ESAIP (Réseaux & Informatique)", "contact": {"email": "lmaillet.ir2027@esaip.org", "phone": "07 81 86 87 17", "address": "1 Allée des Bruyères, 33290 Blanquefort"}, "summary": "Je ne cherche pas à changer le monde. Je veux construire une vie stable : travailler sérieusement, rester libre et profiter des choses simples.", "formation": [{"period": "2022–2024", "title": "Prépa MPSI → MP — Lycée Robespierre, Arras", "notes": "Formation exigeante, rigueur de travail."}, {"period": "2024–2025", "title": "ESAIP — Ingénieur Réseaux", "notes": "Pédagogie par projet, temps pour approfondir."}, {"period": "2025", "title": "Erasmus — Pilsen (6 mois)", "notes": "Échanges culturels, autonomie."}], "competences_techniques": ["Compréhension rapide", "Python", "Java", "Vision par ordinateur", "Traitement d'images", "Machine learning"], "competences_transversales": ["Rigueur", "Capacité d'adaptation", "Esprit d'analyse", "Communication interculturelle", "Écoute active"], "projet_professionnel": {"objectif": "Trouver un poste stable d'ingénieur (vision ou cybersécurité) permettant une bonne qualité de vie et des responsabilités techniques.", "projection_5_ans": ["Ingénieur confirmé (R&D ou lead technique)", "Contributions à projets techniques", "Stabilité professionnelle et expérience internationale"]}, "experiences": [{"title": "Ambassadeur ESAIP & BDE", "period": "Depuis 2024", "description": "Représentation de l'école, organisation d'événements. Interaction quotidienne avec des étudiants internationaux : accueil, orientation, médiation linguistique et culturelle. Compétences : communication interculturelle, gestion d'événements, prise de parole, coordination."}, {"title": "Projet d'analyse d'images binaires (académique)", "period": "Semestre", "description": "Développement Python pour segmentation et analyse d'objets. Compétences développées : pipeline de traitement, validation expérimentale, interprétation de résultats."}, {"title": "Implémentation de structures de données (TPs)", "period": "Travaux pratiques", "description": "Conception et tests d'une table de hachage et structures de graphe, profilage et optimisation. Compétences développées : algorithmique, tests, optimisation."}], "values": {"valeurs": ["Rigueur", "Responsabilité", "Ouverture", "Innovation"]}};
+function populate(data){
+  const techList = document.getElementById('tech-list');
+  data.competences_techniques.forEach(t => { let li=document.createElement('li'); li.textContent=t; techList.appendChild(li); });
+  const transList = document.getElementById('trans-list');
+  data.competences_transversales.forEach(t => { let li=document.createElement('li'); li.textContent=t; transList.appendChild(li); });
+  const proj5 = document.getElementById('proj5');
+  data.projet_professionnel.projection_5_ans.forEach(p => { let li=document.createElement('li'); li.textContent=p; proj5.appendChild(li); });
+  const expList = document.getElementById('exp-list');
+  data.experiences.forEach(exp => {
+    const art=document.createElement('article');
+    art.className='card';
+    art.innerHTML=`<h4>${exp.title} <span class='muted'>(${exp.period})</span></h4><p>${exp.description}</p>`;
+    expList.appendChild(art);
+  });
+}
+document.addEventListener('DOMContentLoaded', () => {
+  populate(inlineData);
+  document.querySelectorAll('section').forEach(s => s.classList.add('visible'));
+});
+</script>
+
+</body>
+</html>
